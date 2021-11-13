@@ -46,7 +46,12 @@ The analysis of the retirement data shows that:
 1. Number of employees retiring by title analysis results show...
 2. Number of employees retiring by title analysis results show...
 3. Employees eligible for mentorship program results show...
-4. Employees eligible for mentorship program results show...
+
+* The mentorship_eligible title counts are shown here: 
+  
+  ![mentorship_eligible title data image](/Data/mentorship_titles.png)
+  
+5. Employees eligible for mentorship program results show...
 
 ### Employee Retirement Database Analysis Key Deliverables:
 The employee retirement technical database analysis  includes three main deliverables:
@@ -63,7 +68,7 @@ The employee retirement technical database analysis  includes three main deliver
   ![unique_titles table data image](/Data/unique_titles.png)
   
 * The retiring titles results are saved to the retiring_titles.csv file included in the Data folder in the repository.
-* A sample of the retiring_titles table output is shown here:
+* The retiring_titles table output is shown here:
 
   ![retiring_titles table data image](/Data/retiring_titles.png)
   
