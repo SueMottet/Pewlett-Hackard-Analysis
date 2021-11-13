@@ -28,7 +28,7 @@ Using the ERD and Postgres SQL queries, a retirement titles table was created th
 
 #### Employees Eligible for the Mentorship Program
 Using the ERD and Postgres SQL queries, a mentorship-eligibility table was created that holds the current employees who were born between January 1, 1965 and December 31, 1965:
-1. Queried and joined data from the employees, titles, dept_emp (emp_no, first_name, last_name, birth_date, dep_emp.from_date, dep_emp.to_date, title)filtering to include only current employees who were born between January 1, 1965 and December 31, 1965 and ordering by the employee number.
+1. Queried and joined data from the employees, titles, dept_emp (emp_no, first_name, last_name, birth_date, dep_emp.from_date, dep_emp.to_date, title) filtering to include only current employees who were born between January 1, 1965 and December 31, 1965 and ordering by the employee number.
 2. Created a new table with the required data in it (mentorship_eligibility) using the INTO clause
 3. Exported and saved the mentorship_eligibility table data as mentorship_eligibility.csv 
 
