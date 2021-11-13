@@ -14,8 +14,11 @@ This project is to perform technical database analysis to:
 * Tables for the data were created in the pgAdmin database and keys were set using Postgres SQL
 * Data was imported into the tables from the .csv files.
 * Queries were run looking ate retirement eligiblity and some analysis summary data tables were created and also exported to .csv files
-### Technical Database Analysis of Employee Retirement
 
+### Technical Database Analysis of Employee Retirement
+Using the ERD and SQL queries create a retirement titles table that holds the current titles of current employees who were born between January 1, 1952 and December 31, 1955. Some employees have multiple titles due to promotions in the source data.
+1. Create sql and save it to a file
+2. 
 
 ### Resources
 - Data Source: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
@@ -36,7 +39,7 @@ The employee retirement technical database analysis analysis includes three main
 
 2. The result 2 results are saved to the rsults1.csv file included in the data folder in the repository as shown here:
 
-  ![image 2](/Resources/result2.png)
+  ![retirement_titles table data image](/Data/retirement_titles.png)
 
 3. The written analysis of this technical database analysis work is included in this README.
 
