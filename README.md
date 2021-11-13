@@ -30,14 +30,15 @@ The analysis of the retirement data shows that:
 * Number of employees retiring by title
 * employee count eligible for mentorship program
 
+The Postgres SQL code for completing this Employee retirement database analysis included in the Query folder in the repository.
 
 ### Employee Retirement Database Analysis Key Deliverables:
-The employee retirement technical database analysis analysis includes three main deliverables:
-1. The results 1 results using the Postgres SQL code included in the repository file Employee_Database_Challenge.sql as shown here:
+The employee retirement technical database analysis  includes three main deliverables:
 
-  ![image1](/Resources/result1.png)
+1. The Number of Retiring Employees by Title
+* The retirement titles results are saved to the retirements_title.csv file included in the Data folder in the repository. 
 
-2. The retirement titles results are saved to the retirements_title.csv file included in the Data folder in the repository as shown here in a sample of the table output:
+* A sample of the retirement_info table output is shown here:
 
   ![retirement_titles table data image](/Data/retirement_titles.png)
 
