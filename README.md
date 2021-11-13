@@ -21,7 +21,7 @@ Using the ERD and SQL queries create a retirement titles table that holds the cu
 2. 
 
 ### Resources
-- Data Source: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
+- Data source(s): employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
 - Software: PostgresSQL pgAdmin
 
 ## Technical Database Analysis of Employee Retirement Data Results
