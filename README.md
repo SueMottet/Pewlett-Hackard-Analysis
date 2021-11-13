@@ -1,9 +1,15 @@
-#Technical Database Analysis of Employee Retirment Data using Postgres SQL and Python pandas
-# 
+# Technical Database Analysis of Employee Retirment Data using Postgres SQL
+
 ## Technical Database Analysis of Employee Retirement Data Overview
 This project is to perform technical database analysis to:
 1. Help determine the number of retiring employees per title
 2. Determine of this retiring employees who is eligible to participate in a mentorship program
+
+### Technical Database Analysis of Employee Retirement Data Background
+* Six csv files were provided: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
+
+### Technical Database Analysis of Employee Retirement
+
 
 ### Resources
 - Data Source: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
