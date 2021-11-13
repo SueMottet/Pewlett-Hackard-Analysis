@@ -10,44 +10,62 @@ This project is to perform technical database analysis to:
 * PostgresSQL was downloaded and installed
 * Looking at the .csv files target database keys were identified (primary keys and foreign keys) and entity relationships were determined
 * An Entity Relationship Diagram (ERD) was created using Quick DBD
-* A PH-EmplyeeDB database was created in pgAdmin
+* A database was created in pgAdmin to hold the data
 * Tables for the data were created in the pgAdmin database and keys were set using Postgres SQL
 * Data was imported into the tables from the .csv files.
-* Queries were run looking ate retirement eligiblity and some analysis summary data tables were created and also exported to .csv files
+* Queries were run looking at retirement eligiblity and some analysis summary data tables were created and also exported to .csv files
 
-### Technical Database Analysis of Employee Retirement
-Using the ERD and Postgres SQL queries find the number of retiring employees by title and the employees eligible for the mentorship progrom.
+### Technical Database Analysis of Employee Retirement Data
+Using the ERD and Postgres SQL queries, the number of retiring employees by title and the employees eligible for the mentorship progrom were found.
 
 #### Retiring Employees by Title
-Using the ERD and Postgres SQL queries, a retirement titles table was created that holds the current titles of current employees who were born between January 1, 1952 and December 31, 1955. Some employees have multiple titles due to promotions in the source data:
-1. Queried data from the employees and titles tables using joins (emp_no, first_name, last_name, title, from_date, to_date) fiiltering to include only employees who were born between 1952 and 1955 ordering by the employee number.
-2. Created a new table with the subset of data in it called retirement_titles using INTO clause
-3. Exported and save the retirement_titles table data as retirement_titles.csv 
+Using the ERD and Postgres SQL queries, a retirement titles table was created that holds the current titles of current employees who were born between January 1, 1952 and December 31, 1955 (some employees have multiple titles due to promotions in the source data):
+1. Queried data from the employees and titles tables using joins (emp_no, first_name, last_name, title, from_date, to_date) fiitering to include only employees who were born between 1952 and 1955 and ordering by the employee number.
+2. Queried data to get the unique title most recent tiles for the retiring employees
+3. Queried data to get the number of titles filled by employees who are retiring
+4. Created new tables with the required data in them (retirement_titles, unique_titles, retiring_tities) using the INTO clause
+5. Exported and saved the table data as retirement_titles.csv, unique_titles.csv, and retiring_tities.csv
 
 #### Employees Eligible for the Mentorship Program
+Using the ERD and Postgres SQL queries, a mentorship-eligibility table was created that holds the current employees who were born between January 1, 1965 and December 31, 1965:
+1. Queried and joined data from the employees, titles, dept_emp (emp_no, first_name, last_name, birth_date, dep_emp.from_date, dep_emp.to_date, title)filtering to include only current employees who were born between January 1, 1965 and December 31, 1965 and ordering by the employee number.
+2. Created a new table with the required data in it (mentorship_eligibility) using the INTO clause
+3. Exported and saved the mentorship_eligibility table data as mentorship_eligibility.csv 
+
+#### Report on how to prepare for the retirements
+1. Overview: Explains the purpose of the analysis and what anlaysis was performed
+2. Results: Major points from the two analysis deliverables
+3. Summary: Provide high level information on how many roles will need be filles and whether there are enough retirement-ready employees in the departments to mentor the next generation of employees
 
 ### Resources
 - Data source(s): employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
 - Software: PostgresSQL pgAdmin, Quick DBD
 
 ## Technical Database Analysis of Employee Retirement Data Results
-
 The analysis of the retirement data shows that:
-* Number of employees retiring by title
-* employee count eligible for mentorship program
-
-
+1. Number of employees retiring by title analysis results show...
+2. Number of employees retiring by title analysis results show...
+3. Employees eligible for mentorship program results show...
+4. Employees eligible for mentorship program results show...
 
 ### Employee Retirement Database Analysis Key Deliverables:
-
-
 The employee retirement technical database analysis  includes three main deliverables:
 
 1. The Number of Retiring Employees by Title
-* The retirement titles results are saved to the retirements_title.csv file included in the Data folder in the repository. 
+* The retirement titles results are saved to the retirements_title.csv file included in the Data folder in the repository.
 * A sample of the retirement_info table output is shown here:
 
   ![retirement_titles table data image](/Data/retirement_titles.png)
+  
+* The unique titles results are saved to the unique_titles.csv file included in the Data folder in the repository.
+* A sample of the unique_titles table output is shown here:
+
+  ![unique_titles table data image](/Data/unique_titles.png)
+  
+* The retiring titles results are saved to the retiring_titles.csv file included in the Data folder in the repository.
+* A sample of the retirement_info table output is shown here:
+
+  ![retiring_titles table data image](/Data/retiring_titles.png)
   
 2. The Employees Eligible for the Mentorship Program
 * The mentorship eligibility results are saved to the mentorship_eligibility.csv file included in the Data folder in the repository. 
