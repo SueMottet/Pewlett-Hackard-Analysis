@@ -85,7 +85,7 @@ The employee retirement technical database analysis  includes three main deliver
 Note: The Postgres SQL code for completing this Employee retirement database analysis is included in the Query folder in the repository.
 
 ## Technical Database Analysis of Employee Retirement Data Summary
-The analysis of the employee retirement data shows that the company needs to expand the mentorship eligibility or find other alternatives. The number of employees retiring is much higher than the number eligible to be mentors. Too few mentors will be available to successfully mentor the next generation of employees successfully if the company doesn't expand eligibility.
+The analysis of the employee retirement data shows that the company needs to expand the mentorship eligibility or find other alternatives. The number of employees retiring is much higher than the number eligible to be mentors. Too few mentors will be available to successfully mentor the next generation of employees if the company doesn't expand eligibility.
 
 ### References
 * PostgresSQL: https://www.postgresql.org/docs/manuals/
