@@ -13,7 +13,7 @@ This project is to perform technical database analysis to:
 * A PH-EmplyeeDB database was created in pgAdmin
 * Tables for the data were created in the pgAdmin database and keys were set using Postgres SQL
 * Data was imported into the tables from the .csv files.
-* Queries were run looking ate retirement eligiblity and some analysis summary data table were created and also exported to csv
+* Queries were run looking ate retirement eligiblity and some analysis summary data tables were created and also exported to .csv files
 ### Technical Database Analysis of Employee Retirement
 
 
@@ -50,6 +50,8 @@ The technical database analysis components built for ...
 * pgAdmin: https://www.pgadmin.org/docs/
 * pgAdmin download: https://www.pgadmin.org/download/pgadmin-4-macos/
 * Quick DBD: http://quickdatabasediagrams.com/
+* PostgresSQL joins: https://www.techonthenet.com/postgresql/joins.php
+* PostgresSQL inner joins: http://www.postgresqltutorial.com/postgresql-inner-join/
 * GitHub documentation on SSH https://help.github.com/en/articles/connecting-to-github-with-ssh
 * Git Hub Markdown https://help.github.com/en/articles/basic-writing-and-formatting-syntax
 
