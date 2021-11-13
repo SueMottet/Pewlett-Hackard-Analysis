@@ -37,7 +37,7 @@ The employee retirement technical database analysis analysis includes three main
 
   ![image1](/Resources/result1.png)
 
-2. The result 2 results are saved to the rsults1.csv file included in the data folder in the repository as shown here:
+2. The retirement titles results are saved to the retirements_title.csv file included in the Data folder in the repository as shown here in a sample of the table output:
 
   ![retirement_titles table data image](/Data/retirement_titles.png)
 
