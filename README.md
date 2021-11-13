@@ -8,7 +8,7 @@ This project is to perform technical database analysis to:
 ### Technical Database Analysis of Employee Retirement Data Background
 * Six .csv files were provided and examined: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
 * PostgresSQL was downloaded and installed
-* Looking at the .csv files target database keys were identified (primary keys and foreign keys) and entity relationships were determined
+* Looking at the .csv files, target database keys were identified (primary keys and foreign keys) and entity relationships were determined
 * An Entity Relationship Diagram (ERD) was created using Quick DBD
 * A database was created in pgAdmin to hold the data
 * Tables for the data were created in the pgAdmin database and keys were set using Postgres SQL
