@@ -43,12 +43,12 @@ Using the ERD and Postgres SQL queries, a mentorship-eligibility table was creat
 
 ## Technical Database Analysis of Employee Retirement Data Results
 The analysis of the retirement data shows that the company needs to expand the mentorship eligibility or find other alternatives:
-1. 29414 Senior Engineers are retiring and there are only 289 eligible Senior Engineer mentors. Even if all agree to be mentors, there are not enough elibile Senior Engineer mentors.
-2. 28,254 Senior Staff are retiring and there are only 431 eligible Senior Staff mentors. Even if all agree to be mentors, there are not enough elibile Senior Staff mentors. 
-3. 14,222 Engineers are retiring and there are only 397 eligle Engineer mentors. Even if all agree to be mentors, there are not enough eligible Engineer mentors.
+1. 29414 Senior Engineers are retiring and there are only 289 eligible Senior Engineer mentors. Even if all agree to be mentors, there are not enough eligible Senior Engineer mentors.
+2. 28,254 Senior Staff are retiring and there are only 431 eligible Senior Staff mentors. Even if all agree to be mentors, there are not enough eligible Senior Staff mentors. 
+3. 14,222 Engineers are retiring and there are only 397 eligible Engineer mentors. Even if all agree to be mentors, there are not enough eligible Engineer mentors.
 4. 12,233 Staff are retiring and there are only 293 eligible Staff mentors. Even if all agree to be mentors, there are not enough eligible Staff mentors.
 5. This same pattern repeats with Technique Leaders retiring and Assitant Managers retiring. The ratio between the employees retiring and those being eligible to mentor does not support having enough mentors.
-6. There are 2 Managers retiring and no eligible Manager mentors. Senior managers could mentor Managers but there are not enough Senior Manager mentors to mentor Senior Managers let alone also having the Senior Managers mentor Managers. 
+6. There are 2 Managers retiring and no eligible Manager mentors. Senior Managers could mentor Managers but there are not enough Senior Manager mentors to mentor Senior Managers let alone also having the Senior Managers mentor Managers. 
 
 * The mentorship_eligible title counts are shown here: 
   
@@ -85,7 +85,7 @@ The employee retirement technical database analysis  includes three main deliver
 Note: The Postgres SQL code for completing this Employee retirement database analysis is included in the Query folder in the repository.
 
 ## Technical Database Analysis of Employee Retirement Data Summary
-The analysis of the retirement data shows that the company needs to expand the mentorship eligibility or find other alternatives. The number of employees retiring is much higher than the number eligible to be mentor. To few mentors will be available to successfully mentor the next generation of employees successfully.
+The analysis of the employee retirement data shows that the company needs to expand the mentorship eligibility or find other alternatives. The number of employees retiring is much higher than the number eligible to be mentors. Too few mentors will be available to successfully mentor the next generation of employees successfully if the company doesn't expand eligibility.
 
 ### References
 * PostgresSQL: https://www.postgresql.org/docs/manuals/
