@@ -52,8 +52,8 @@ The analysis of the retirement data shows that:
 The employee retirement technical database analysis  includes three main deliverables:
 
 1. The Number of Retiring Employees by Title
-* The retirement titles results are saved to the retirements_title.csv file included in the Data folder in the repository.
-* A sample of the retirement_info table output is shown here:
+* The retirement titles results are saved to the retirements_titles.csv file included in the Data folder in the repository.
+* A sample of the retirement_titles table output is shown here:
 
   ![retirement_titles table data image](/Data/retirement_titles.png)
   
@@ -63,7 +63,7 @@ The employee retirement technical database analysis  includes three main deliver
   ![unique_titles table data image](/Data/unique_titles.png)
   
 * The retiring titles results are saved to the retiring_titles.csv file included in the Data folder in the repository.
-* A sample of the retirement_info table output is shown here:
+* A sample of the retiring_titles table output is shown here:
 
   ![retiring_titles table data image](/Data/retiring_titles.png)
   
