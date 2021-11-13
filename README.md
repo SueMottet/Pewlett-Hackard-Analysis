@@ -6,14 +6,20 @@ This project is to perform technical database analysis to:
 2. Determine of this retiring employees who is eligible to participate in a mentorship program
 
 ### Technical Database Analysis of Employee Retirement Data Background
-* Six csv files were provided: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
-
+* Six csv files were provided and examined: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
+* PostgresSQL was downloaded and installed
+* Looking at the .csv files target database keys were identified (primary keys and foreign keys) and entity relationships were determined
+* An Entity Relationship Diagram (ERD) was created using Quick DBD
+* A PH-EmplyeeDB database was created in pgAdmin
+* Tables for the data were created in the pgAdmin database and keys were set using Postgres SQL
+* Data was imported into the tables from the .csv files.
+* Queries were run looking ate retirement eligiblity and some analysis summary data table were created and also exported to csv
 ### Technical Database Analysis of Employee Retirement
 
 
 ### Resources
 - Data Source: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
-- Software: Python 3.6.1, Jupyter Notebook, Postgres SQL pgAdmin
+- Software: PostgresSQL pgAdmin
 
 ## Technical Database Analysis of Employee Retirement Data Results
 
@@ -22,7 +28,7 @@ The analysis of the retirement data shows that:
 * employee count eligible for mentorship program
 
 
-### Election Audit Key Deliverables:
+### Employee Retirement Database Analysis Key Deliverables:
 The employee retirement technical database analysis analysis includes three main deliverables:
 1. The results 1 results using the Postgres SQL code included in the repository file Employee_Database_Challenge.sql as shown here:
 
@@ -38,7 +44,12 @@ The employee retirement technical database analysis analysis includes three main
 The technical database analysis components built for ...
 
 ### References
-* Python install instructions https://courses.bootcampspot.com/courses/811/pages/3-dot-1-2-install-python?module_item_id=300461#python-for-windows
+* PostgresSQL: https://www.postgresql.org/docs/manuals/
+* PostgresSQL tutorial: https://www.tutorialspoint.com/postgresql/
+* PostgresSQL download: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+* pgAdmin: https://www.pgadmin.org/docs/
+* pgAdmin download: https://www.pgadmin.org/download/pgadmin-4-macos/
+* Quick DBD: http://quickdatabasediagrams.com/
 * GitHub documentation on SSH https://help.github.com/en/articles/connecting-to-github-with-ssh
 * Git Hub Markdown https://help.github.com/en/articles/basic-writing-and-formatting-syntax
 
