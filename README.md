@@ -6,7 +6,7 @@ This project is to perform technical database analysis to:
 2. Determine of this retiring employees who is eligible to participate in a mentorship program
 
 ### Technical Database Analysis of Employee Retirement Data Background
-* Six csv files were provided and examined: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
+* Six .csv files were provided and examined: employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
 * PostgresSQL was downloaded and installed
 * Looking at the .csv files target database keys were identified (primary keys and foreign keys) and entity relationships were determined
 * An Entity Relationship Diagram (ERD) was created using Quick DBD
@@ -18,11 +18,13 @@ This project is to perform technical database analysis to:
 ### Technical Database Analysis of Employee Retirement
 Using the ERD and SQL queries find the number of retiring employees by title and the employees eligible for the mentorship progrom.
 
-## Retiring Employees by Title
-Using the ERD and SQL queries create a retirement titles table that holds the current titles of current employees who were born between January 1, 1952 and December 31, 1955. Some employees have multiple titles due to promotions in the source data:
+#### Retiring Employees by Title
+Using the ERD and Postgres SQL queries, create a retirement titles table that holds the current titles of current employees who were born between January 1, 1952 and December 31, 1955. Some employees have multiple titles due to promotions in the source data:
 1. Query data from the employees and titles tables using joins (emp_no, first_name, last_name, title, from_date, to_date) fiiltering to include only employees who were born between 1952 and 1955 ordering by the employee number.
 2. Create a new table with the subset of data in it called retirement_titles using INTO clause
 3. Export and save the retirement_titles table data as retirement_titles.csv 
+
+#### Employees Eligible for the Mentorship Program
 
 ### Resources
 - Data source(s): employees.csv, departments.csv. dept_emp.csv, dept_manager.csv, salaries.csv, titles.csv
