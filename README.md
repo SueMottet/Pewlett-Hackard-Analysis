@@ -2,7 +2,7 @@
 
 ## Technical Database Analysis of Employee Retirement Data Overview
 This project is to perform technical database analysis to:
-1. Help determine the number of retiring employees per title
+1. Determine the number of retiring employees per title
 2. Determine of this retiring employees who is eligible to participate in a mentorship program
 
 ### Technical Database Analysis of Employee Retirement Data Background
